@@ -16,13 +16,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation project(':floatball_sdk')
-
+//    implementation(name: 'floatball_sdk-release', ext: 'aar')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'

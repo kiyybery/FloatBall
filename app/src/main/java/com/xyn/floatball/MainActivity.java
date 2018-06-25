@@ -15,7 +15,6 @@ import com.xyn.floatballsdk.menu.MenuItem;
 import com.xyn.floatballsdk.permission.FloatPermissionManager;
 import com.xyn.floatballsdk.utils.BackGroudSeletor;
 import com.xyn.floatballsdk.utils.DensityUtil;
-import com.xyn.floatballsdk.utils.FileUtil;
 
 public class MainActivity extends AppCompatActivity {
 
